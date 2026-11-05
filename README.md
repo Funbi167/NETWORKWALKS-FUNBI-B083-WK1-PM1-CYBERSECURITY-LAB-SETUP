@@ -123,7 +123,7 @@ Inside Kali: Network icon → **Edit Connections** → *Wired connection 1* → 
 | Gateway | `10.0.0.1` |
 | DNS servers | `8.8.8.8` |
 
-![Static IP configuration](screenshots/08-static-ip.png)
+![Static IP configuration]
 
 ### Step 7: Take a Snapshot
 
@@ -131,7 +131,7 @@ Took a snapshot of the clean, working VM so I can roll back anytime.
 
 **Snapshot name:** `[My Fresh Kali Linux after installation]`
 
-![Snapshot taken](screenshots/09-snapshot.png)
+![Snapshot taken](09-snapshot.png)
 
 ---
 
@@ -146,8 +146,8 @@ ping -c 4 8.8.8.8       # test Internet connectivity (by IP)
 ping -c 4 google.com    # test DNS resolution
 ```
 
-![ip a output](screenshots/10-ip-a.png)
-![ping test](screenshots/11-ping-test.png)
+![ip a output](10-ip-a.png)
+![ping test](11-ping-test.png)
 
 | Requirement | Status |
 |---|---|
