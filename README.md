@@ -72,7 +72,6 @@ The lab is a controlled environment where security tools, network scanning, reco
 
 Kali's VirtualBox image is distributed as a compressed `.7z` archive, so I installed 7-Zip first to extract it.
 
-![7-Zip installed](screenshots/01-7zip.png)
 
 ### Step 2: Install VirtualBox
 
@@ -165,9 +164,9 @@ ping -c 4 google.com    # test DNS resolution
 
 ## 🧰 Troubleshooting
 
-### Problem: [Describe the issue you faced, e.g. "Kali lost Internet after setting the static IP"]
+### Problem: Kali lost Internet after setting the static IP
 
-**Cause:** [What you found]
+**Cause:**
 
 **Solution:**
 ```bash
@@ -182,9 +181,7 @@ Other checks that help:
 - Make sure no other VM on the same NAT Network uses `10.0.0.2`
 - Try DNS `10.0.0.1` instead of `8.8.8.8`
 - Check whether the host firewall or antivirus is blocking traffic
-- Restart the VM and the host OS
-
-> *Delete this section or the nmcli block if you didn't face this issue. Only keep what you actually did.*
+- Restart the VM and the host OS 
 
 ---
 
@@ -194,7 +191,7 @@ Other checks that help:
 - How NAT Networks let VMs talk to each other and the Internet on a private subnet
 - How to assign and verify static IP configuration in Kali Linux
 - Why snapshots matter: a safe restore point before experimenting
-- [Add one or two of your own takeaways]
+  
 
 ---
 
@@ -214,9 +211,9 @@ All activity in this project takes place in a private virtual lab on hardware I 
 
 ## 👤 Author
 
-**[Your Full Name]**
+Oluwafunbi Bader
 Cybersecurity Intern, Networkwalks (Batch B083)
-🔗 LinkedIn: [your profile link]
-🐙 GitHub: [your profile link]
+🔗 LinkedIn: www.linkedin.com/in/oluwafunbi-bader-167423390
+🐙 GitHub: https://github.com/Funbi167/NETWORKWALKS-FUNBI-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/edit/main/README.md
 
 *Instructor: Waqas Karim CCIE*
