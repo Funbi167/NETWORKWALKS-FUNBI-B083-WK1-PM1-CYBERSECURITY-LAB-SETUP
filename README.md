@@ -77,7 +77,7 @@ Kali's VirtualBox image is distributed as a compressed `.7z` archive, so I insta
 
 Downloaded and installed the latest VirtualBox from the official site.
 
-![VirtualBox installed](screenshots/02-virtualbox-installed.png)
+![VirtualBox installed](02-virtualbox-installed.png)
 
 ### Step 3: Create the NAT Network (10.0.0.0/24)
 
@@ -87,7 +87,7 @@ Downloaded and installed the latest VirtualBox from the official site.
 4. Set the IPv4 prefix to `10.0.0.0/24`
 5. Tick **Enable DHCP** and click **Apply**
 
-![NAT Network configuration](screenshots/03-natnetwork.png)
+![NAT Network configuration](/03-natnetwork.png)
 
 ### Step 4: Download and Import Kali Linux
 
@@ -95,21 +95,21 @@ Downloaded and installed the latest VirtualBox from the official site.
 2. Extracted it with 7-Zip
 3. Added the `.vbox` file to VirtualBox (**Machine → Add**)
 
-![Kali imported into VirtualBox](screenshots/04-kali-imported.png)
+![Kali imported into VirtualBox](04-kali-imported.png)
 
 ### Step 5: Configure the Kali VM Settings
 
 **Network:** Adapter 1 → Attached to **NAT Network** → Name: `NatNetwork`
 
-![VM network settings](screenshots/05-vm-network-settings.png)
+![VM network settings](05-vm-network-settings.png)
 
 **Clipboard and drag-and-drop:** General → Advanced → set both to **Bidirectional**
 
-![Clipboard and drag-and-drop](screenshots/06-clipboard-dragdrop.png)
+![Clipboard and drag-and-drop](06-clipboard-dragdrop.png)
 
 **Shared folder:** Shared Folders → add the host `Downloads` folder (Auto-mount enabled)
 
-![Shared folder](screenshots/07-shared-folder.png)
+![Shared folder](07-shared-folder.png)
 
 ### Step 6: Set the Static IP on Kali (10.0.0.2/24)
 
